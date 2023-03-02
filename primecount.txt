@@ -1,0 +1,39 @@
+  public class Primecount {
+
+	      public static void main(String[] args) {
+
+              int no=2;
+              int primecount=0;
+              int total=0;
+              while(true)
+              {
+	      int div=2;
+	      while(div<no)
+	      {
+		if(no%div==0)
+		{
+			System.out.println(no+"is not prime");
+			break;
+			
+		}
+	        div++;
+	       }
+	      if(no==div)
+	       {
+		System.out.println(no+"is prime");
+		total=total+no;
+		primecount++;
+		if(primecount==20)
+			break;
+		}
+	       no++;
+            }
+
+            System.out.println("total is"+total);
+            System.out.println("count of prime"+primecount);
+
+
+
+	}
+
+}
