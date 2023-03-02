@@ -29,7 +29,7 @@
 	       no++;
             }
 
-            System.out.println("total is"+total);
+            System.out.println("total of primenumber is "+total);
             System.out.println("count of prime"+primecount);
 
 
