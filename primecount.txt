@@ -23,7 +23,7 @@
 		System.out.println(no+"is prime");
 		total=total+no;
 		primecount++;
-		if(primecount==20)
+		if(primecount==10)
 			break;
 		}
 	       no++;
